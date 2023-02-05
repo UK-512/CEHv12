@@ -79,13 +79,9 @@ Based on the knowledge of the network topology and trends in network security, w
 > + The devices that the employees are using may have some vulnerabilities, but they do not contain all of the data that a hacker would be interested in. The hacker may use the vulnerable devices to eventually gain access to their primary target, which would be the cloud-based file server.
 
 9. Highlander, Incorporated, is a medical insurance company with several regional company offices in North America. Employees, when in the office, utilize desktop computers that have Windows 10, Microsoft Office, anti-malware/virus software, and an insurance application developed by a contractor. All the software updates and patches are managed by the IT department of Highlander, Incorporated. Group policies are used to lock down the desktop computers, including the use of Applocker to restrict the installation of any third-party applications.
-
 There are one hundred employees who work from their home offices. Employees who work from home use their own computers, laptops, and personal smartphones. They authenticate to a cloud-based domain service, which is synchronized with the corporate internal domain service. The computers are updated and patched through the cloud-based domain service. Applocker is not used to restrict the installation of third-party applications.
-
 The laptops utilize direct access to automatically connect their machines to the Highlander, Incorporated, network when they are not in the regional offices. The laptops are set up to use IPsec when communicating with the cloud-based file server. The protocol that they have chosen is Authentication Header (AH).
-
 The database that hosts the information collected from the insurance application is hosted on a cloud-based file server, and their email server is hosted on Office 365. Other files created by employees get saved to a cloud-based file server, and the company uses work folders to synchronize offline copies back to their devices.
-
 Based on the knowledge of the network topology, which of the main elements of information security has Highlander, Incorporated, NOT addressed in its plans for its laptops?
 
 + [ ] Availability
