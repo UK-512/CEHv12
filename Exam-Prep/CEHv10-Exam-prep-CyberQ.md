@@ -45,7 +45,9 @@
 > + Integrity refers to the trustworthiness of data or resources in terms of preventing improper and unauthorized changes. Availability is an assurance that the systems responsible for delivering, storing, and processing information are accessible when required by the authorized users. Authenticity refers to the characteristic of a communication, document or any data that ensures the quality of being genuine.
 
 6. Jonathan, a solutions architect with a start-up, was asked to redesign the company’s web infrastructure to meet the growing customer demands. He proposed the following architecture to the management:
-![](./images/0006.png)
+
+![](./Images/0006.png)
+
 What is Jonathan’s primary objective?
 + [x] Ensuring high availability
 + [ ] Ensuring confidentiality of the data
@@ -4334,7 +4336,9 @@ What type of DDoS attack is this?
 > LOIC is the first version of the tool and it was used in Operation Payback. HOIC is the second version of the tool with some additional features, and it was used in the Operation Megaupload. BanglaDos and Dereil do not have direct connection with anonymous group.
 
 357. Identify the type of DDoS attack from the following diagram:
-![](./images/0357.png)
+
+![](./Images/0357.png)
+
 + [ ] Permanent Denial-of-Service attack
 + [ ] Peer-to-Peer attack
 + [ ] Phlashing attack
@@ -4551,9 +4555,13 @@ Which of the following attack will help Marin to do this?
 
 379. During the penetration test, Marin is using the MITMF tool to inject the arbitrary data into an HTTP communication channel between the clients on the internal network and web servers in order to steal the cookies and, if possible, establish a remote shell on the victim’s computer. He successfully injects XSS JavaScript into the session, and with BeeF he has a control over the user browser, as shown in the following images.
 Command used with the MITMF tool:
-![](./images/0379-1.png)
+
+![](./Images/0379-1.png)
+
 BeeF hook achieved:
-![](./images/0379-2.png)
+
+![](./Images/0379-2.png)
+
 There is no 0-day vulnerability against the client browser (at least not the one Marin knows about). Is it possible to gain the remote shell access to the remote machine without browser/javascript/flash etc. vulnerability?
 + [ ] Yes. There is an exploit in BeeF that always works; afterall Marin has access to the remote browser
 + [ ] No. Marin needs 0 day in order to escalate to remote shell
@@ -4563,7 +4571,9 @@ There is no 0-day vulnerability against the client browser (at least not the one
 > The correct answer is “Yes. Marin can try to use social engineering attacks (like “Fake Flash Update”), and try to fool the user into clicking on the malicious payload”. If the user is naïve enough, Marin can always make him click on malicious payload with social engineering payloads in BeeF. There is no magical exploit that always works even if there is no 0-day.
 
 380. Marin is a penetration tester in XYZ organization and while performing penetration testing using MITMF tool, he captured the Microsoft NTLMv2 hash file as shown in the screenshot.
-![](./images/0380.png)
+
+![](./Images/0380.png)
+
 What can Marin do with it?
 + [ ] Marin can crack it with rainbow tables
 + [ ] Marin cannot crack it since it’s salted
@@ -4674,9 +4684,13 @@ What can Marin do to fix this issue?
 > SslstripHSTS tool does not exist.
 
 391. Marin is using the mitmf tool during a penetration test and after few minutes this is what pops up on the screen.
-![](./images/0391-1.png)
+
+![](./Images/0391-1.png)
+
 A few seconds later though, the hash is different.
-![](./images/0391-2.png)
+
+![](./Images/0391-2.png)
+
 + [ ] This is Microsoft NTLMv2 hash. It’s different because user is visiting another website. Each website will have its own unique hash.
 + [x] This is Microsoft NTLMv2 hash—it’s salted, so it will be different for every new request.
 + [ ] This is Microsoft NTLMv2 hash. It’s different because user changed the password in the meantime.
@@ -4688,7 +4702,9 @@ A few seconds later though, the hash is different.
 > + No—practically a user cannot change the password in one second difference
 
 392. Marin configured Firefox as shown in the following image:
-![](./images/0392.png)
+
+![](./Images/0392.png)
+
 He is intercepting the traffic with Burp. HTTP traffic is shown, but HTTPS is not. Why?
 
 + [ ] It is impossible to intercept HTTPS traffic with burp and similar tools; one has to use sslstrip.
@@ -4699,7 +4715,9 @@ He is intercepting the traffic with Burp. HTTP traffic is shown, but HTTPS is no
 > To intercept https traffic, the Internet browser has to be configured separately for HTTP and other protocols (like HTTPS). So in this case, one has to configure accordingly to use this proxy for all protocols or manually configure SSL proxy configuration settings, if FTP and SOCKS do not have to be intercepted with burp.
 
 393. Analyze the following image and answer the question:
-![](./images/0393.png)
+
+![](./Images/0393.png)
+
 This is the end result of what type of attack?
 
 + [ ] CSRF (Cross-site request forgery)
@@ -6410,7 +6428,9 @@ Which of the following tools does Michael use to perform time-based blind SQL in
 > + **WebCruiser:** WebCruiser is a Web Vulnerability and web pen testing tool used for auditing website security. It supports scanning a website as well as POC (Proof of concept) for web vulnerabilities like SQL Injection, Cross Site Scripting, XPath Injection, etc. (Source: http://sec4app.com)
 
 555. Shea is a licensed penetration tester. She is working with a client to test their new e-commerce website for SQL injection. After signing the NDA and agreeing on the rules of engagement (RoE), she starts by examining and listing all the input fields on the website. She tries to insert a string value in the CVV2 textbox, where a three-digit number is expected, and she ends up with the below error message.
-![](./images/0555.png)
+
+![](./Images/0555.png)
+
 Identify in which stage of the SQL injection methodology is Shea right now.
 + [ ] Exploit second-order SQL injection
 + [ ] Launch SQL injection attacks
@@ -6429,7 +6449,9 @@ Identify in which stage of the SQL injection methodology is Shea right now.
 > ( c ) and ( d ) are wrong because the question is about SQL injection methodology stages and not about specific stage steps.
 
 556. Talisa is inspecting the website Movie Scope for SQL injection attacks. She is using an open-source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and the taking over of database servers. The tool is called sqlmap. Talisa was able to find and exploit an SQL injection vulnerability in the user ID parameter on the website. Now she has full control over the DBMS. However, she had to prove to the website owner that she was able to execute SQL commands on the DB server and successfully retrieve answers from the DB prior to getting paid. From the screenshot below, identify the SQL command that Talisa used in order to retrieve the DBMS version.
-![](./images/0556.png)
+
+![](./Images/0556.png)
+
 + [ ] GET @@VERSION
 + [ ] SELECT * FROM VERSION
 + [ ] SELECT @VERSION
@@ -6656,7 +6678,8 @@ In LAN-to-LAN Wireless Network, the APs provide wireless connectivity to local c
 > | WEP  | RC4       | 24-bits | 40/104-bit | CRC-32                       |
 > | WPA  | RC4, TKIP | 48-bit  | 128-bit    | Michael Algorithm and CRC-32 |
 > | WPA2 | AES-CCMP  | 48-bit  | 128-bit    | CBC-MAC                      |
-> ![](./images/0577.png)
+> 
+> ![](./Images/0577.png)
 
 578. Donald works as a network administrator with ABCSecurity, Inc., a small IT based firm in San Francisco. He was asked to set up a wireless network in the company premises which provides strong encryption to protect the wireless network against attacks. After doing some research, Donald decided to use a wireless security protocol which has the following features:
 + Provides stronger data protection and network access control
