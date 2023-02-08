@@ -1,4 +1,4 @@
 # CEHv12
 
 ## [Exam Prep](./Exam-Prep)
-+ [Set-A](./Exam-Prep/CEH-Set-A.md)
++ [CEHv10 Questions & Answers](./Exam-Prep/CEHv10-Exam-prep-CyberQ.md)
