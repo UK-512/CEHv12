@@ -204,7 +204,7 @@
 + [ ] Reconnaissance
 + [ ] Delivery
 > **Explanation:**
-> ![](D:\Notes\Certification Cources\EC-Council\CEHv12\Exam-Prep\CEHv12\01.png)
+> ![](./Images-v12/0018.png)
 
 19. Which of the following IoC categories is useful for command and control, malware delivery, and identifying details about the operating system, browser type, and other computer-specific information?
 + [ ] Host-based indicators
