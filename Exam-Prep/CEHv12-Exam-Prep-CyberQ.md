@@ -8653,7 +8653,7 @@ Enables port security on the interface.
 > In a Smurf attack, the attacker spoofs the source IP address with the victim’s IP address and sends large number of ICMP ECHO request packets to an IP broadcast network. This causes all the hosts on the broadcast network to respond to the received ICMP ECHO requests. These responses will be sent to the victim’s machine since the IP address is spoofed by the attacker. This causes significant traffic to the actual victim’s machine, ultimately leading the machine to crash.
 
 674. Identify the type of DDoS attack from the following diagram:
-	![Image](./Images-v12/0674.png)
+	![](./Images-v12/0674.png)
 + [x] Distributed reflection denial-of-service (DRDoS) attack
 + [ ] Peer-to-peer attack
 + [ ] Permanent denial-of-service attack
