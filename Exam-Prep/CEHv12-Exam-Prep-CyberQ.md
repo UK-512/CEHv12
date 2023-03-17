@@ -813,7 +813,7 @@
 + [x] Publicly accessible sources
 + [ ] Email tracking
 > **Explanation:**
-> ![](D:\Notes\Certification Cources\EC-Council\CEHv12\Exam-Prep\CEHv12\02.png)
+> ![](./Images-v12/0065.png)
 
 66. A penetration tester was hired to perform a penetration test for a bank. The tester began searching for IP ranges owned by the bank, performing lookups on the bank’s DNS servers, reading news articles online about the bank, watching the bank employees time in and out, searching the bank’s job postings (paying special attention to IT-related jobs), and visiting the local dumpster for the bank’s corporate office. What phase of the penetration test is the tester currently in?
 + [x] Passive information gathering
@@ -8653,7 +8653,7 @@ Enables port security on the interface.
 > In a Smurf attack, the attacker spoofs the source IP address with the victim’s IP address and sends large number of ICMP ECHO request packets to an IP broadcast network. This causes all the hosts on the broadcast network to respond to the received ICMP ECHO requests. These responses will be sent to the victim’s machine since the IP address is spoofed by the attacker. This causes significant traffic to the actual victim’s machine, ultimately leading the machine to crash.
 
 674. Identify the type of DDoS attack from the following diagram:
-	![Image](D:\Notes\Certification Cources\EC-Council\CEHv12\Exam-Prep\CEHv12\03.png)
+	![Image](./Images-v12/0674.png)
 + [x] Distributed reflection denial-of-service (DRDoS) attack
 + [ ] Peer-to-peer attack
 + [ ] Permanent denial-of-service attack
@@ -11304,7 +11304,7 @@ An attacker uses the following Nmap commands and NSE scripts to extract informat
 + [ ] Disallow carriage return (%0d or \r) and line feed (%0a or \n) characters
 + [x] UDP source port randomization
 > **Explanation:**
-> ![](D:\Notes\Certification Cources\EC-Council\CEHv12\Exam-Prep\CEHv12\04.png)
+> ![](./Images-v12/0910.png)
 
 911. Which of the following tools is employed by a pen tester to find vulnerabilities in an organization’s web server and evaluate its security posture by using the same techniques as those currently employed by cybercriminals?
 + [ ] Pupy
@@ -12047,7 +12047,7 @@ An attacker uses the following Nmap commands and NSE scripts to extract informat
 + [x] Cookie poisoning
 + [ ] Cookie replay
 > **Explanation:**
-> ![](D:\Notes\Certification Cources\EC-Council\CEHv12\Exam-Prep\CEHv12\05.png)
+> ![](./Images-v12/0981.png)
 
 982. Which of the following HTTP service port numbers is used for connecting to a remote network server system?
 + [ ] Port 81
@@ -13744,7 +13744,7 @@ An attacker uses the following Nmap commands and NSE scripts to extract informat
 1099. Talisa is inspecting the website Movie Scope for SQL injection attacks. She is using an open-source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and the taking over of database servers. The tool is called sqlmap.
 	Talisa was able to find and exploit an SQL injection vulnerability in the user ID parameter on the website. Now she has full control over the DBMS. However, she had to prove to the website owner that she was able to execute SQL commands on the DB server and successfully retrieve answers from the DB prior to getting paid.
 	From the screenshot below, identify the SQL command that Talisa used in order to retrieve the DBMS version.
-	![](D:\Notes\Certification Cources\EC-Council\CEHv12\Exam-Prep\CEHv12\06.png)
+	![](./Images-v12/1099.png)
 + [ ] SELECT * FROM VERSION
 + [ ] GET @@VERSION
 + [x] SELECT @@VERSION
@@ -13882,7 +13882,7 @@ An attacker uses the following Nmap commands and NSE scripts to extract informat
 > | SYS.USER_OBJECTS            |                   |                   |              |
 
 1109. Shea is a licensed penetration tester. She is working with a client to test their new e-commerce website for SQL injection. After signing the NDA and agreeing on the rules of engagement (RoE), she starts by examining and listing all the input fields on the website. She tries to insert a string value in the CVV2 textbox, where a three-digit number is expected, and she ends up with the below error message.
-	![](D:\Notes\Certification Cources\EC-Council\CEHv12\Exam-Prep\CEHv12\07.png)
+	![](./Images-v12/1109.png)
 	Identify in which stage of the SQL injection methodology is Shea right now.
 + [ ] Perform blind SQL injection
 + [x] Information gathering and SQL injection vulnerability detection
@@ -14307,7 +14307,7 @@ An attacker uses the following Nmap commands and NSE scripts to extract informat
 + [ ] 64 bit and CCMP
 > **Explanation:**
 > CRC 128 bit, TKIP 128 bit is used by WPA. CCMP 128 bit is used by WPA2 for wireless data encryption.
-> ![](D:\Notes\Certification Cources\EC-Council\CEHv12\Exam-Prep\CEHv12\08.png)
+> ![](./Images-v12/1141.png)
 
 1142. Which of the following cryptographic algorithms is used by CCMP?
 + [x] AES
